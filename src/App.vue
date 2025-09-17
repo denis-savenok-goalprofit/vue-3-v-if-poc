@@ -2,6 +2,12 @@
   <Custom />
 </template>
 
-<script setup>
+<script>
 import Custom from './components/custom.vue'
+
+export default {
+  components: {
+    Custom
+  }
+}
 </script>
