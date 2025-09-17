@@ -17,15 +17,15 @@ export default {
   },
 
   created() {
-    console.log('Test componrnt created', this._uid);
+    console.log('Test created', this._uid);
   },
 
   mounted() {
-    console.log('Test componrnt mounted', this._uid);
+    console.log('Test mounted', this._uid);
   },
 
   unmounted() {
-    console.log('Test componrnt unmounted', this._uid);
+    console.log('Test unmounted', this._uid);
   },
 
   methods: {
