@@ -18,8 +18,8 @@ export default {
     console.log('Test mounted', this._uid);
   },
 
-  unmounted() {
-    console.log('Test unmounted', this._uid);
+  beforeDestroy() {
+    console.log('Test beforeDestroy', this._uid);
   },
 
   methods: {
